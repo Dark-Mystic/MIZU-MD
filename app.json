@@ -1,0 +1,167 @@
+{
+
+  "name": "MIZU-MD",
+
+  "description": "MIZU-MD has been designed to make things easier and fun while using WhatsApp. 👨‍💻💙🍓",
+
+  "logo": "https://i.imgur.com/H062oEI.jpeg",
+
+  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device"],
+
+  "success_url": "/",
+
+  "stack": "container",
+
+"env": {
+
+  "OWNER_NAME": {
+
+  "description": "Give the name you want the BOT to come to ",
+
+      "value": "👨‍💻 MIZU-MD-WA-BOT 👨‍💻"
+
+  },
+
+  "ALIVE_IMG": {
+
+    "description": "Give a url of an image to come alive",
+
+     "required" :false
+
+    },
+
+   "ALIVE_MSJ": {
+
+    "description": "Put the alive message here",
+
+     "value": "i am alive now 🙋‍♂️"
+
+    },
+  
+    "AUTO_VOICE": {
+
+    "description": "If you want Auto Voice reply, give true, otherwise give false",
+
+     "value": "false"
+
+    },
+  
+    "AUTO_STICKER": {
+
+    "description": "If you want auto sticker, give true, otherwise give false",
+
+     "value": "false"
+
+    },
+    
+    "BOTCAHX_API": {
+
+    "description": "Enter the BOTCAHX_API_KEY available from this site https://api.botcahx.biz.id/signup"
+
+  },
+
+   "ANTILINK_VALUES": {
+
+    "description": "When antilink is turned on, when this link is added, the user will be removed",
+
+     "value": "chat.whatsapp.com",
+
+     "required" :false
+
+    },
+
+      "READ_MESSAGE": {
+
+    "description": "If you want to read the bot message, give true, otherwise give false",
+
+     "required" :false,
+
+     "value": "true"
+
+    },
+
+   "DISABLE_PM": {
+
+    "description": "If you want the bot inbox to work, give false, if you don't want it to work, give true",
+
+     "required" :false
+
+    },
+
+      "PREFIX": {
+
+  "description": "Do not change this ",
+
+      "value": "."
+
+  },
+
+  "OWNER_NUMBER": {
+
+    "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
+
+       "value": "923474187615"
+
+  },
+
+   "SESSION_ID": {
+
+    "description": "Enter the code from the QR code scan "
+
+  },
+
+    "OPENAI_API_KEY": {
+
+    "description": "Do not change this ",
+
+       "value": "Replace Me(optional)",
+
+       "required" :false
+
+  },
+
+  "WELCOME_MESSAGE": {
+
+    "description": "Do not change this This can be changed after creating the bot ",
+
+       "value": "  *Hi,* @user \n*Welcome in* @gname \n*Member count* : @count th",
+
+       "required" :false
+
+  },
+
+  "MONGODB_URI": {
+
+    "description": "MONGODB_URI Go to Mongodb "
+
+  },
+
+    "THEME": {
+
+    "description": "Do not change this ",
+
+     "value": "MIZU-MD"
+
+  },
+
+    "WORKTYPE": {
+
+  "description": "Set it to (private) for your own use and set it (to public) for others to use",
+
+         "value": "public"
+
+  },
+
+  "PACK_INFO": {
+
+    "description": "Put packname;authorname.",
+
+     "value": "MIZU-MD💚;𝑨𝒔𝒊𝒇 𝑲𝒉𝒂𝒏💛👑",
+
+     "required": false 
+
+  }
+
+}
+
+}
