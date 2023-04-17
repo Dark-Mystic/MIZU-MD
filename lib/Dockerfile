@@ -1,6 +1,6 @@
 FROM quay.io/sampandey001/secktor
-RUN git clone https://github.com/prabathLK/PRABATH_MD /root/prabathLK
-WORKDIR /root/prabathLK/
+RUN git clone https://github.com/Dark-Mystic/MIZU-MD /root/Dark-Mystic
+WORKDIR /root/Dark-Mystic/
 RUN npm install npm@latest
 RUN yarn install --network-concurrency 1
 EXPOSE 8000
